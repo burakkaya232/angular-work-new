@@ -12,4 +12,7 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+  title='First Angular Application';
+  name='Burak KAYA';
+}
